@@ -1,0 +1,21 @@
+{
+  "name": "video-stream-sample",
+  "version": "1.0.0",
+  "description": "Streaming video example",
+  "main": "server.js",
+  "engines": {
+    "node": ">=6.2.0"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "daspinola",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.3",
+    "firebase": "^7.7.0",
+    "firebase-admin": "^8.9.2",
+    "googleapis": "^39.2.0",
+    "nodemon": "^1.11.0"
+  }
+}
