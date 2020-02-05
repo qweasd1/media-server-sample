@@ -19,7 +19,8 @@ This is a basic sample of how to do video streaming using Node.js and HTML5
     * load media from google drive to media server (see my code in ```video.js``` file)
     * store meta data in firebase see [here](https://firebase.google.com/docs/database/admin/start) if you don't know how to 
     store data to firebase through nodejs
-* export firebase cloud functions which can let portal update video meta information (title, description) 
+* export firebase cloud functions which can let portal update video meta information (title, description)
+* test video streaming on real device inside ionic (you might need to use tool like ngrok to forward to your local server to internet: https://ngrok.com/docs)
     
 
 
